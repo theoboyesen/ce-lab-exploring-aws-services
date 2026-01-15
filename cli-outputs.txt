@@ -1,0 +1,81 @@
+# AWS CLI Command Outputs
+
+## Save all your CLI command outputs here
+
+---
+
+## Command 1: AWS CLI Version
+```
+$ aws --version
+
+[Paste your output here]
+```
+
+---
+
+## Command 2: Configuration List
+```
+$ aws configure list
+
+[Paste your output here]
+```
+
+---
+
+## Command 3: Get Caller Identity
+```
+$ aws sts get-caller-identity
+
+[Paste your output here]
+```
+
+---
+
+## Command 4: Describe Regions
+```
+$ aws ec2 describe-regions --output table
+
+[Paste your output here]
+```
+
+---
+
+## Command 5: Get Default Region
+```
+$ aws configure get region
+
+[Paste your output here]
+```
+
+---
+
+## Command 6: List S3 Buckets
+```
+$ aws s3 ls
+
+[Paste your output here]
+```
+
+---
+
+## Command 7: Describe Instance Types
+```
+$ aws ec2 describe-instance-types --query 'InstanceTypes[?contains(InstanceType, `t2`) || contains(InstanceType, `t3`)].InstanceType' --output table
+
+[Paste your output here]
+```
+
+---
+
+## Command 8: Get Account Summary
+```
+$ aws iam get-account-summary
+
+[Paste your output here]
+```
+
+---
+
+## Bonus Commands (if completed)
+
+[Add any additional CLI commands you explored]
